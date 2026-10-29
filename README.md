@@ -39,4 +39,4 @@ requests.
 
 `price-collector` 是一個用於消費者物價統計研究的工具，讀取台灣及香港網上商店公開顯示的商品價格。
 它不收集個人資料，不登入、不下單；請求頻率低（純 HTTP 每 5 秒最多一次，瀏覽器每 15 秒一頁），遇到封鎖或驗證碼即停止。
-如網站經營者希望我們降低頻率、改用數據源或停止讀取，請在此提交 issue：**https://github.com/misha-bonch/price-collector-info/issues**。
+如網站經營者希望我們降低頻率、改用數據源或停止讀取，請在此提交 issue： https://github.com/misha-bonch/price-collector-info/issues
