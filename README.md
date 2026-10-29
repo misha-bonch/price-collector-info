@@ -22,7 +22,7 @@ Pages that only work in a browser are opened in a standard Chrome browser, which
 ## How it behaves
 
 - Few requests: at most one request every 5 seconds over plain HTTP, and one page every 15 seconds when a browser
-  is needed. A run is bounded; a development check is at most 25 page loads.
+  is needed. A run is bounded; a development check is at most 100 page loads.
 - It stops at once on any block, captcha, HTTP 401/403/429 or unexpected redirect, and does not retry that
   day by the same method.
 - It does not hide what it is: no rotating IP addresses, no proxy services, no captcha solving, no copied browser
